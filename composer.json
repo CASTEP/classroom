@@ -1,0 +1,28 @@
+{
+    "name": "castep/classroom",
+    "description": "The Classroom module for the CASTEP LMS.",
+    "type": "package",
+    "authors": [
+        {
+            "name": "BJ Hansen",
+            "email": "bjhansen@castep.co"
+        }
+    ],
+    "license": "proprietary",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CASTEP\\Classroom\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CASTEP\\Classroom\\Providers\\ClassroomProvider"
+            ],
+            "aliases": [
+
+            ]
+        }
+    }
+}
